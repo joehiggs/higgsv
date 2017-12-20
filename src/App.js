@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <div className='background'>
         <div className='shape'>
-          <p className='text'>under construction<span role="img" aria-label="construction">👷‍♂</span></p>
+          <p className='text'>under construction<span role="img" aria-label="construction">👷‍</span></p>
         </div>
         <div className='shape'>
         </div>
