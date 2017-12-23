@@ -7,6 +7,10 @@
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @-webkit-keyframes Gradient {
@@ -45,9 +49,12 @@
   }
 }
 
-.shape {
-  background-color: black;
-  height: 100px;
+.area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .text {
