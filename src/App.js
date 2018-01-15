@@ -8,13 +8,13 @@ class App extends Component {
         		<div className="area">
           			<div className="white heading">Joseph B. Higgs V <span role="img" aria-label="construction">👨‍💻</span></div>
         		    <div className="white icons">
-                    <a href="https://www.github.com/joehiggs" target="_blank">
+                    <a href="https://www.github.com/joehiggs" target="_blank" rel="noopener noreferrer">
                         <i className="fa fa-2x fa-github" aria-hidden="true"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/higgsvio" target="_blank">
+                    <a href="https://www.linkedin.com/in/higgsvio" target="_blank" rel="noopener noreferrer">
                         <i className="fa fa-2x fa-linkedin" aria-hidden="true"></i>
                     </a>
-                    <a href="http://www.opico.io" target="_blank">
+                    <a href="http://www.opico.io" target="_blank" rel="noopener noreferrer">
                         <i className="fa fa-2x fa-map-marker" aria-hidden="true"></i>
                     </a>
                 </div>
