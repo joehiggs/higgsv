@@ -6,7 +6,7 @@ class App extends Component {
     	return (
       		<div className="background">
         		<div className="area">
-          			<div className="white heading">Joseph B. Higgs V <span role="img" aria-label="construction">👨‍💻</span></div>
+          			<div className="white heading">Joe Higgs V <span role="img" aria-label="construction">👨‍💻</span></div>
         		    <div className="white icons">
                     <a href="https://www.github.com/joehiggs" target="_blank" rel="noopener noreferrer">
                         <i className="fa fa-2x fa-github" aria-hidden="true"></i>
