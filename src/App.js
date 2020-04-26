@@ -1,27 +1,35 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from "react";
 
-class App extends Component {
-  	render() {
-    	return (
-      		<div className="background">
-        		<div className="area">
-          			<div className="white heading">Joe Higgs V <span role="img" aria-label="construction">👨‍💻</span></div>
-        		    <div className="white icons">
-                    <a href="https://www.github.com/joehiggs" target="_blank" rel="noopener noreferrer">
-                        <i className="fa fa-2x fa-github" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/higgsvio" target="_blank" rel="noopener noreferrer">
-                        <i className="fa fa-2x fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                    <a href="http://www.opico.io" target="_blank" rel="noopener noreferrer">
-                        <i className="fa fa-2x fa-map-marker" aria-hidden="true"></i>
-                    </a>
-                </div>
-            </div>
-      		</div>
-    	);
-  	}
-}
+import IconButton from "./IconButton";
+import "./App.css";
+
+const App = () => {
+  return (
+    <div className="background">
+      <div className="area">
+        <div className="white heading">
+          Joe Higgs V{" "}
+          <span role="img" aria-label="dev-emoji">
+            👨‍💻
+          </span>
+        </div>
+        <div className="white">
+          <IconButton
+            url="https://www.github.com/joehiggs"
+            classString="fa fa-2x fa-github"
+          />
+          <IconButton
+            url="https://www.linkedin.com/in/joe-higgs"
+            classString="fa fa-2x fa-linkedin"
+          />
+          <IconButton
+            url="https://apps.apple.com/us/app/opico/id1215993252"
+            classString="fa fa-2x fa-map-marker"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default App;
